@@ -6,7 +6,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-bg: #1a141b;
+    --color-bg: #170f19;
     --color-fg-1: #d299f4;
     --color-fg-2: #d299f4;
     --color-fg-1-hover: #b454ee;
@@ -88,7 +88,6 @@ body {
   max-width: 540px;
   padding-bottom: 0px;
   padding-top: 15px;
-  border-radius: 0;
   border: none;
   font-family: "Open Sans";
   font-size: 24px;
