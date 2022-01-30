@@ -10,8 +10,7 @@
     --color-fg-1: #d299f4;
     --color-fg-2: #d299f4;
     --color-fg-1-hover: #b454ee;
-    --color-border: #b414ca;
-    --color-border-hover: #b414ca;
+    --color-border: #b454ee;
   }
 }
 
@@ -112,6 +111,4 @@ body {
 
 #container #main .searchbar input:focus {
   outline: none;
-  border-bottom: 0px solid var(--color-border-hover);
-  border-top: 1.5px solid var(--color-border-hover);
 }
