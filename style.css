@@ -1,31 +1,17 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+@import url('https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css');
 
 :root {
-  color-scheme: light dark;
-  --font-awesome: 'Font Awesome 5 Free';
+  color-scheme: dark;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-bg: #0d1117;
-    --color-fg-1: #bababa;
-    --color-fg-2: #a0a0a0;
-    --color-fg-1-hover: #e3e3e3;
-    --color-border: #2f2f2f;
-    --color-border-hover: #5a5a5a;
-    --color-footer: #7e7e7e;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --color-bg: #fefefe;
-    --color-fg-1: #0f0f0f;
-    --color-fg-2: #757575;
-    --color-fg-1-hover: #707070;
-    --color-border: #dbdbdb;
-    --color-border-hover: #979797;
-    --color-footer: #707070;
+    --color-bg: #1a141b;
+    --color-fg-1: #d299f4;
+    --color-fg-2: #d299f4;
+    --color-fg-1-hover: #b454ee;
+    --color-border: #b414ca;
+    --color-border-hover: #b414ca;
   }
 }
 
@@ -57,7 +43,7 @@ body {
   height: calc(100vh - 30px);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
   #container #main .links * {
     display: none;
   }
@@ -65,28 +51,28 @@ body {
 
 #container #main .links {
   text-align: center;
-  width: 50vw;
-  max-width: 280px;
+  width: 90vw;
+  max-width: 540px;
 }
 
 #container #main .links .border {
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid var(--color-border);
-  border-top: 1px solid var(--color-border);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1.5px solid var(--color-border);
+  border-top: 1.5px solid var(--color-border);
 }
 
 #container #main .links .border a {
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 40px;
   color: var(--color-fg-1);
 }
 
 #container #main .links .border i {
   color: var(--color-fg-1);
-  transition: color .2s ease-in-out;
+  transition: color .08s ease-in-out;
 }
 
 #container #main .links .border i:hover {
@@ -94,30 +80,30 @@ body {
 }
 
 #container #main .searchbar {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 #container #main .searchbar input {
-  height: 30px;
-  width: 50vw;
-  max-width: 280px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  height:40px;
+  width: 40vw;
+  max-width: 540px;
+  padding-bottom: 0px;
+  padding-top: 15px;
   border-radius: 0;
   border: none;
   font-family: "Open Sans";
-  font-size: 18px;
+  font-size: 24px;
   text-align: center;
   color: var(--color-fg-1);
   background: var(--color-bg);
-  border-bottom: 1px solid var(--color-border);
-  border-top: 1px solid var(--color-border);
+  border-bottom: 0px solid var(--color-border);
+  border-top: 1.5px solid var(--color-border);
   transition: border-color .4s ease-out;
 }
 
 #container #main .searchbar input::placeholder {
   color: var(--color-fg-2);
-  transition: opacity .26s ease-in-out;
+  opacity: 1;
 }
 
 #container #main .searchbar input:focus::placeholder {
@@ -126,6 +112,6 @@ body {
 
 #container #main .searchbar input:focus {
   outline: none;
-  border-bottom: 1px solid var(--color-border-hover);
-  border-top: 1px solid var(--color-border-hover);
+  border-bottom: 0px solid var(--color-border-hover);
+  border-top: 1.5px solid var(--color-border-hover);
 }
