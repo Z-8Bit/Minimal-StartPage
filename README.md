@@ -8,7 +8,7 @@
 ![image](https://user-images.githubusercontent.com/72144072/233823029-288ebcb8-05b3-49c6-b18d-050af7155e6c.png)
 
 ## Other Startpages of mine.
-- [TreeBreeze](https://github.com/Z-8Bit/treebreeze) : The same startpage as this but with an alternate colour scheme.
+- [TreeBreeze](https://github.com/Z-8Bit/treebreeze) : A Startpage with a unique z-flex and To-Do List features. (green)
 - [OceanBliss](https://github.com/Z-8Bit/oceanbliss) : A simpler and faster startpage with bigger buttons.
-- [CloudySnowflake](https://github.com/Z-8Bit/cloudysnowflake) : A Startpage with a unique z-flex and To-Do List features. (Alternate Colour of TreeBreeze.)
+- [CloudySnowflake](https://github.com/Z-8Bit/cloudysnowflake) : A Startpage with a unique z-flex and To-Do List features. (blue)
 
