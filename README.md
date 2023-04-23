@@ -2,9 +2,13 @@
 ### A minimal startpage with search and shortcuts.
 
 ## Before:
-![image](https://user-images.githubusercontent.com/72144072/233822343-6bb17364-808f-42af-b505-f6e54ab614f2.png)
+![cropp(1)](https://user-images.githubusercontent.com/72144072/233822535-c9319690-bfa4-4b0b-9000-79f74b5f02aa.png)
 
 ## Now:
+![Uploading image.png…]()
+![Uploading image.png…]()
+
+
 
 
 ## Other Startpages of mine.
